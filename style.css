@@ -7,17 +7,17 @@ SÖTÉT ÁTLÁTSZÓ A ZÖLD HELYETT ESETLEGESEN: rgba(23, 17, 18, 0.65)*/
     padding-right: 0px;
 	}
 	body{
-	  	background: url(backgrtab.jpg);
+	  	background: url(images/backgrtab.jpg);
 	}
 }
 @media screen and (max-width: 480px) {
 	body{
-	  	background: url(backgrmob.jpg);
+	  	background: url(images/backgrmob.jpg);
 	}
 }
 
 body {
-    background: url(backgr.jpg);
+    background: url(images/backgr.jpg);
 	background-attachment: fixed;
   }
 .main {
