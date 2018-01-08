@@ -21,22 +21,35 @@ body {
 	background-attachment: fixed;
   }
 .main {
-  margin-top: 70px;
-  max-width: 1150px
+	margin-top: 70px;
+	max-width: 1150px
 }
 .head-left .fb{
 	max-width: 25px;
 	border-radius: 5px;
 	margin-right: 10px
 }
+.head-left .lang{
+	font-size: 16px;
+	color: white
+}
+.head-left a{
+	font-size: 16px;
+	color: white
+}
+.head-left a :hover{
+	text-decoration: none;
+	color: grey
+}
 .head-left .phone{
 	max-width: 20px;
+	font-weight: bold;
 }
 .head {
-  background: rgba(82, 68, 54, 0.6);
-  max-height: 200px;
-  border-radius: 20px;
-  margin-bottom: 20px
+	background: rgba(82, 68, 54, 0.6);
+	max-height: 200px;
+	border-radius: 20px;
+	margin-bottom: 20px
 }
 .head .head-left h1{
 	background-color: rgba(169, 134, 104, 0.65);

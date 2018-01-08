@@ -13,7 +13,7 @@ require_once('connectvars.php');
 			else $old = 0;
 			switch ($old){
 				case 1:
-					echo '<h1>Étlap</h1>
+					echo '<h1>'.$menu.'</h1>
 					<hr class="line"></hr>
 					<div class="right">';
 					$dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
@@ -37,7 +37,10 @@ require_once('connectvars.php');
 					}
 					echo '<h2>Dátum:</h2>' .$date[0]. ' - ' .$date[5].' -ig <br><br>';
 					echo '<div class="table-responsive"><table class="table table-menu"><thead><tr>';
-					$days = ['Hétfő', 'Kedd', 'Szerda', 'Csütörtök', 'Péntek', 'Szombat'];
+					if($lang == 'en'){
+						$days = ['Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat'];
+					}else
+						$days = ['Hétfő', 'Kedd', 'Szerda', 'Csütörtök', 'Péntek', 'Szombat'];
 					for($i = 0; $i < 6; $i++){
 						echo '<th><a href="index.php?site=1&f_date='.$date[$i].'" title="'.$date[$i].'">'.$days[$i].'</a></th>';
 					}
@@ -65,18 +68,18 @@ require_once('connectvars.php');
 					echo '</tbody></table></div></div>';
 					break;
 				case 2:
-					echo '<h1>Elérhetőség</h1>
+					echo '<h1>'.$contact.'</h1>
 					<hr class="line"></hr>
 					<div class="right"><p>Integer tempor dolor at lacus imperdiet pulvinar. Nullam id sem orci. Maecenas pellentesque bibendum turpis, et porta nisl consectetur eu. Cras vel elit auctor lacus vestibulum lobortis. Nulla eget diam in purus tempor sodales. Aenean consectetur vestibulum metus, sit amet ornare neque dignissim nec. In dictum eros sed magna finibus, eget varius tortor sollicitudin.</p>
 					<div class="google-maps"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d341134.1143436711!2d20.39556932517015!3d48.08881441320263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47409e878d72ebe7%3A0x400c4290c1e11b0!2sMiskolc!5e0!3m2!1shu!2shu!4v1515334936942" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div><br></div>';
 					break;
 				case 3:
-					echo '<h1>Éttermeink</h1>
+					echo '<h1>'.$rest.'</h1>
 					<hr class="line"></hr>
 					<div class="right"><p>Nullam in est enim. Nullam vel porta dui. Duis faucibus, est non elementum consequat, dui risus mollis lorem, eu condimentum leo dolor a nunc. Integer aliquam eros tellus, id laoreet odio rutrum a. Ut vestibulum dui massa, sit amet venenatis dui vestibulum quis. Nullam maximus consectetur commodo. Donec euismod magna a turpis malesuada, vel ultricies eros pellentesque.</p></div>';
 					break;
 				default:
-					echo '<h1>Főoldal</h1>
+					echo '<h1>'.$home.'</h1>
 					<hr class="line"></hr>
 					<div class="right"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis congue faucibus velit, et blandit ipsum bibendum at. 
 					Sed accumsan lorem sit amet lobortis condimentum. Duis eu urna vel nulla mollis rhoncus at sed purus. Donec tempus sodales lobortis. 
@@ -92,14 +95,14 @@ require_once('connectvars.php');
 		  </div>
 		  <!-- BAL OLDAL-->  
 		  <div class="col-sm-12 col-md-4 col-md-pull-8 cont-left">
-			<h1>Nyitvatartás</h1>
+			<h1><?php echo $open;?></h1>
 			<hr class="line"></hr>
 			<div class="left">
 				<p>
 					Hetfő: 10.00 - 18.00<br> Kedd: 10.00 - 18.00<br>Szerda: 10.00 - 18.00<br>Csütörtök: 10.00 - 18.00<br>Péntek: 10.00 - 18.00<br>Szombat: 10.00 - 14.00
 				</p>
 			</div>
-			<h1>Információ</h1>
+			<h1><?php echo $info;?></h1>
 			<hr class="line"></hr>
 			<div class="left">
 <?php		for($i=0; $i<count($headfoo['infos']); $i=$i+2){

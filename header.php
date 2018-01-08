@@ -28,9 +28,9 @@ $today = date('Y-m-d');
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li><a href="/etterem/index.php<?php echo $url .'">' . $home;?></a></li>
-        <?php echo '<li><a href="/etterem/index.php?site=1&f_date='.$today.'">Étlap</a></li>';?>
-        <li><a href="/etterem/index.php?site=2">Elérhetőség</a></li>
-        <li><a href="/etterem/index.php?site=3">Éttermeink</a></li>
+         <li><a href="/etterem/index.php?site=1&f_date=<?php echo $today. $urland.'">'.$menu;?></a></li>
+        <li><a href="/etterem/index.php?site=2<?php echo $urland.'">'.$contact;?></a></li>
+        <li><a href="/etterem/index.php?site=3<?php echo $urland.'">'.$rest;?></a></li>
       </ul>
     </div>
   </div>
@@ -40,17 +40,20 @@ $today = date('Y-m-d');
 <!-- FEJLÉC -->
   <div class="row hidden-xs">
       <div class="col-sm-12 col-md-10 col-md-offset-1 head">
-<div class="col-sm-5 head-left">
-  <h1><?php echo $headfoo['cont']['name']; ?></h1>
-  <a href="http://www.facebook.com/" target=""> <img class="fb" src="images/fb.jpg"></a>
-    </div>
-<div class="col-sm-7 head-right">
- <img class="img-responsive img-fluid" src="images/rest2.png"/>
-    </div>
+		<div class="col-sm-5 head-left">
+		  <h1><?php echo $headfoo['cont']['name']; ?></h1>
+		  <a href="http://www.facebook.com/" target=""> <img class="fb" src="images/fb.jpg"></a>
+		  <span class="lang">Lang:</span> 
+		  <a href="?lang=hu">HU</a>
+		  <a href="?lang=en">EN</a>
+		</div>
+		<div class="col-sm-7 head-right">
+		 <img class="img-responsive img-fluid" src="images/rest2.png"/>
+		</div>
     </div>
   </div>
 
-    <div class="row head main-mobile hidden-sm hidden-md hidden-lg">
+	<div class="row head main-mobile hidden-sm hidden-md hidden-lg">
     <div class="col-sm-12 head-mobile">
 		<div class="col-sm-6">
 			<h1><?php echo $headfoo['cont']['name']; ?></h1>
