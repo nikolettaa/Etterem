@@ -19,7 +19,7 @@ require_once('connectvars.php');
 					$dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 					mysqli_set_charset($dbc, "utf8");
 					$week_number = date('W');
-					$year = 2017;
+					$year = date('Y');
 					$date = array();
 					for($day = 1; $day < 7; $day++){
 					  array_push($date, date('Y-m-d', strtotime($year."W".$week_number.$day)))."\n";

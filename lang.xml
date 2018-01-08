@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contlang>
+	<nav>
+		<home>
+			<hu>Főoldal</hu>
+			<en>Home</en>
+		</home>
+		<menu>
+			<hu>Étlap</hu>
+			<en>Menu</en>
+		</menu>
+		<contact>
+			<hu>Elérhetőség</hu>
+			<en>Contact</en>
+		</contact>
+		<rest>
+			<hu>Éttermeink</hu>
+			<en>Restaurants</en>
+		</rest>
+	</nav>
+	<aside>
+		<open>
+			<hu>Nyitvatartás</hu>
+			<en>Opening Times</en>
+		</open>
+		<info>
+		</info>
+	</aside>
+	<footer>
+		<contact>
+			<hu>Elérhetőség</hu>
+			<en>Contact</en>
+		</contact>
+		<address>
+			<hu>Cím</hu>
+			<en>Address</en>
+		</address>
+	</footer>
+</contlang>

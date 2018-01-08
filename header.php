@@ -27,7 +27,7 @@ $today = date('Y-m-d');
 ?>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li><a href="/etterem/index.php">Főoldal</a></li>
+        <li><a href="/etterem/index.php<?php echo $url .'">' . $home;?></a></li>
         <?php echo '<li><a href="/etterem/index.php?site=1&f_date='.$today.'">Étlap</a></li>';?>
         <li><a href="/etterem/index.php?site=2">Elérhetőség</a></li>
         <li><a href="/etterem/index.php?site=3">Éttermeink</a></li>
