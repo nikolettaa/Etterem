@@ -11,8 +11,8 @@
     </div>
     <div class="col-sm-4 foot-left">
       <span><?php echo $foocont; ?></span><br><br>
-      <span>Tel:</span> <?php echo $headfoo['cont']['tel']; ?><br>
-      <span><?php echo $addr; ?>:</span> <?php echo $headfoo['cont']['addr']; ?>
+      <span>Tel:</span> <?php echo $tel; ?><br>
+      <span><?php echo $addr; ?>:</span> <?php echo $city; ?>
     </div>
 	<div class="col-sm-4">
 		<div class="col-sm-6 ">

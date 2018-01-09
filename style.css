@@ -30,16 +30,19 @@ body {
 	margin-right: 10px
 }
 .head-left .lang{
-	font-size: 16px;
-	color: white
+	font-size: 20px;
+	color: #d4c3ae;
+	font-family: 'Lobster', cursive;
 }
 .head-left a{
 	font-size: 16px;
-	color: white
+	color: #d4c3ae;
+	font-weight: bold;
 }
-.head-left a :hover{
+.head-left a:hover{
 	text-decoration: none;
-	color: grey
+	color: rgba(126, 153, 95, 0.74);
+	
 }
 .head-left .phone{
 	max-width: 20px;
@@ -82,7 +85,7 @@ body {
 	color: #d4c3ae;
 	font-family: 'Lobster', cursive;
 	font-size: 16px;
-	  padding-bottom: 18px
+	padding-bottom: 18px
 }
 .head-mobile h1{
 	font-size: 28px;

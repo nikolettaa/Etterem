@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<nav>
+		<home>
+			<hu>Főoldal</hu>
+			<en>Home</en>
+		</home>
+		<menu>
+			<hu>Étlap</hu>
+			<en>Menu</en>
+		</menu>
+		<contact>
+			<hu>Elérhetőség</hu>
+			<en>Contact</en>
+		</contact>
+		<rest>
+			<hu>Éttermeink</hu>
+			<en>Restaurants</en>
+		</rest>
+	</nav>
+	<head>
+		<restname>
+			Tölgyfa Gyorsétkezde
+		</restname>
+	</head>
+	<content>
+		<home>
+			<hu>
+				<![CDATA[
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis congue faucibus velit, et blandit ipsum bibendum at. 
+				Sed accumsan lorem sit amet lobortis condimentum. Duis eu urna vel nulla mollis rhoncus at sed purus. Donec tempus sodales lobortis. 
+				Sed risus neque, eleifend pellentesque sem sit amet, ultricies porttitor metus. Etiam eget elit sit amet enim ullamcorper imperdiet. 
+				Proin non sapien leo. <br><br>Vivamus libero ex, fermentum eu condimentum porttitor, faucibus accumsan tortor. Morbi semper blandit enim, 
+				vitae dapibus lacus lacinia non. Nunc augue tellus, aliquam eget augue eget, placerat dictum ante. Nulla ullamcorper fermentum diam nec 
+				dictum. Nulla facilisi. Nam tempor consectetur ipsum, a fermentum nulla luctus non. Curabitur mollis ante vitae enim commodo, 
+				ut pulvinar ligula scelerisque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; 
+				Suspendisse nunc tellus, elementum rutrum hendrerit et, pharetra in nulla.</p>
+				]]>
+			</hu>
+			<en>
+				<![CDATA[
+				<p>Angol fordítás.</p>
+				]]>
+			</en>
+		</home>
+		<contact>
+			<hu>
+				<![CDATA[
+				<p>Integer tempor dolor at lacus imperdiet pulvinar. Nullam id sem orci. Maecenas pellentesque bibendum turpis, et porta nisl consectetur eu. Cras vel elit auctor lacus vestibulum lobortis. Nulla eget diam in purus tempor sodales. Aenean consectetur vestibulum metus, sit amet ornare neque dignissim nec. In dictum eros sed magna finibus, eget varius tortor sollicitudin.</p>
+				<div class="google-maps"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d341134.1143436711!2d20.39556932517015!3d48.08881441320263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47409e878d72ebe7%3A0x400c4290c1e11b0!2sMiskolc!5e0!3m2!1shu!2shu!4v1515334936942" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div><br>
+				]]>
+			</hu>
+			<en>
+				<![CDATA[
+				<p>Angol fordítás.</p>
+				<div class="google-maps"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d341134.1143436711!2d20.39556932517015!3d48.08881441320263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47409e878d72ebe7%3A0x400c4290c1e11b0!2sMiskolc!5e0!3m2!1shu!2shu!4v1515334936942" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div><br>
+				]]>
+			</en>
+		</contact>
+		<restaurants>
+			<hu>
+				<![CDATA[
+				<p>Nullam in est enim. Nullam vel porta dui. Duis faucibus, est non elementum consequat, dui risus mollis lorem, eu condimentum leo dolor a nunc. Integer aliquam eros tellus, id laoreet odio rutrum a. Ut vestibulum dui massa, sit amet venenatis dui vestibulum quis. Nullam maximus consectetur commodo. Donec euismod magna a turpis malesuada, vel ultricies eros pellentesque.</p>
+				]]>
+			</hu>
+			<en>
+				<![CDATA[
+				<p>Angol fordítás.</p>
+				]]>
+			</en>
+		</restaurants>
+	</content>
+	<aside>
+		<open>
+			<hu>Nyitvatartás</hu>
+			<en>Opening Times</en>
+		</open>
+		<info>
+			<hu>Információ</hu>
+			<en>Information</en>
+		</info>
+		<infos>
+			<hu>
+				<a name="0">Ingyenes házhozszállítás</a>
+				<a name="1">Sok sok területen ingyenes a szállítás</a>
+				<a name="2">Hűségkártya</a>
+				<a name="3">Hűségkártyával olcsóbb!</a>
+			</hu>
+			<en>
+				<a name="0">Ingyenes házhozszállítás</a>
+				<a name="1">Sok sok területen ingyenes a szállítás</a>
+				<a name="2">Hűségkártya</a>
+				<a name="3">Hűségkártyával olcsóbb!</a>
+			</en>
+		</infos>
+	</aside>
+	<footer>
+		<contact>
+			<hu>Elérhetőség</hu>
+			<en>Contact</en>
+		</contact>
+		<address>
+			<hu>Cím</hu>
+			<en>Address</en>
+		</address>
+		<tel>
+			12634678
+		</tel>
+		<city>
+			Város, XY utca 17.
+		</city>
+	</footer>
+</root>
