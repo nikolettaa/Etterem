@@ -56,11 +56,11 @@ $today = date('Y-m-d');
 	<div class="row head main-mobile hidden-sm hidden-md hidden-lg">
 		<div class="col-sm-12 head-mobile">
 			<div class="col-sm-6">
-				<h1><?php echo $headfoo['cont']['name']; ?></h1>
+				<h1><?php echo $header; ?></h1>
 			</div>
 			<div class="col-sm-6">
-				 Tel: 065655675765<br>
-				 Cím: Város, utca 112
+				 Tel:<?php echo $tel; ?><br>
+				 Cím:<?php echo $city; ?>
 			</div>	
 		</div>
 	</div>

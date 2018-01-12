@@ -10,7 +10,7 @@ if(isset($_GET['lang'])){
 }else{
 	$lang = 'hu';
 }
-$xml = simplexml_load_file('pagedata.xml');
+$xml = simplexml_load_file('pagedata.xml') or die("Nem található az xml fájl.");
 $home = $xml->nav->home->$lang;
 $menu = $xml->nav->menu->$lang;
 $header = $xml->head->restname;

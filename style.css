@@ -37,7 +37,7 @@ body {
 .head-left a{
 	font-size: 16px;
 	color: #d4c3ae;
-	font-weight: bold;
+	font-family: 'Lobster', cursive;
 }
 .head-left a:hover{
 	text-decoration: none;
